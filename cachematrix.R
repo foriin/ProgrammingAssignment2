@@ -33,4 +33,4 @@ cacheSolve <- function(x, ...) {
         m
 }
         ## Return a matrix that is the inverse of 'x'
-
+cacheSolve(makeCacheMatrix(x)) #x is non-singular matrix
